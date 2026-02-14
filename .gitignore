@@ -10,6 +10,8 @@ practicum_work/supplementary/**/work_dirs/
 *.pt
 *.ckpt
 *.onnx
+
+# EDA / viz artifacts
 practicum_work/supplementary/viz/eda_samples/
 *.png
 
