@@ -1,0 +1,45 @@
+{
+  "split": "train",
+  "data_root": "C:\\Projects\\7block\\Project2_final\\practicum_work\\data\\clean_v1",
+  "img_dir": "C:\\Projects\\7block\\Project2_final\\practicum_work\\data\\clean_v1\\img\\train",
+  "labels_dir": "C:\\Projects\\7block\\Project2_final\\practicum_work\\data\\clean_v1\\labels\\train",
+  "total_label_files": 196,
+  "total_pairs_checked": 196,
+  "overlays_saved": 196,
+  "uniques": [
+    0,
+    1,
+    2
+  ],
+  "total_pixels_counted": 12845056,
+  "pixel_counts": {
+    "0": 11646953,
+    "1": 636966,
+    "2": 561137
+  },
+  "top_values": [
+    {
+      "value": 0,
+      "count": 11646953,
+      "share": 0.9067265257543448
+    },
+    {
+      "value": 1,
+      "count": 636966,
+      "share": 0.04958841752032844
+    },
+    {
+      "value": 2,
+      "count": 561137,
+      "share": 0.04368505672532685
+    }
+  ],
+  "bad_samples_count": 0,
+  "bad_samples": [],
+  "counters": {
+    "missing_img": 0,
+    "unreadable_img": 0,
+    "size_mismatch": 0,
+    "single_value_masks": 0
+  }
+}

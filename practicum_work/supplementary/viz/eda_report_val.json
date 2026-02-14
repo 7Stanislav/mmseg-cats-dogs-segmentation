@@ -1,0 +1,45 @@
+{
+  "split": "val",
+  "data_root": "C:\\Projects\\7block\\Project2_final\\practicum_work\\data\\clean_v1",
+  "img_dir": "C:\\Projects\\7block\\Project2_final\\practicum_work\\data\\clean_v1\\img\\val",
+  "labels_dir": "C:\\Projects\\7block\\Project2_final\\practicum_work\\data\\clean_v1\\labels\\val",
+  "total_label_files": 120,
+  "total_pairs_checked": 120,
+  "overlays_saved": 120,
+  "uniques": [
+    0,
+    1,
+    2
+  ],
+  "total_pixels_counted": 7864320,
+  "pixel_counts": {
+    "0": 7019556,
+    "1": 495493,
+    "2": 349271
+  },
+  "top_values": [
+    {
+      "value": 0,
+      "count": 7019556,
+      "share": 0.8925827026367188
+    },
+    {
+      "value": 1,
+      "count": 495493,
+      "share": 0.06300519307454427
+    },
+    {
+      "value": 2,
+      "count": 349271,
+      "share": 0.04441210428873698
+    }
+  ],
+  "bad_samples_count": 0,
+  "bad_samples": [],
+  "counters": {
+    "missing_img": 0,
+    "unreadable_img": 0,
+    "size_mismatch": 0,
+    "single_value_masks": 0
+  }
+}

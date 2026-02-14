@@ -1,0 +1,30 @@
+data/
+models/
+work_dirs/
+*.zip
+
+practicum_work/supplementary/**/data/
+practicum_work/supplementary/**/models/
+practicum_work/supplementary/**/work_dirs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+practicum_work/supplementary/viz/eda_samples/
+*.png
+
+# do not version heavy artifacts
+reports/
+data/
+models/
+work_dirs/
+
+# track practicum code (required by assignment)
+!practicum_work/src/
+!practicum_work/src/**
+
+# but keep any raw datasets out if they случайно попадут внутрь practicum_work/src/data
+practicum_work/src/data/**/*
+!practicum_work/src/data/**/*.py
+!practicum_work/src/data/**/*.ipynb
+!practicum_work/src/data/**/*.md

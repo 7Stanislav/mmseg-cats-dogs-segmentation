@@ -1,0 +1,857 @@
+{
+  "split": "train",
+  "total_labels": 196,
+  "usable_pairs": 196,
+  "missing_img": 0,
+  "tiny_or_empty_mask": 0,
+  "classifier_used": 27,
+  "unknown_species": 142,
+  "conf_th": 0.25,
+  "min_fg_frac": 0.002,
+  "counts": {
+    "species_cat_main1": 12,
+    "species_cat_main2": 0,
+    "species_dog_main1": 0,
+    "species_dog_main2": 15
+  },
+  "flagged_for_manual": [
+    {
+      "stem": "000000016206_4014",
+      "reason": "low_conf_or_unknown species=unknown conf=0.189 top=unicycle"
+    },
+    {
+      "stem": "000000016823_4560",
+      "reason": "low_conf_or_unknown species=unknown conf=0.307 top=koala"
+    },
+    {
+      "stem": "000000022129_2200",
+      "reason": "low_conf_or_unknown species=unknown conf=0.617 top=wombat"
+    },
+    {
+      "stem": "000000023731_404",
+      "reason": "low_conf_or_unknown species=dog conf=0.138 top=soft-coated wheaten terrier"
+    },
+    {
+      "stem": "000000024497_3808",
+      "reason": "low_conf_or_unknown species=unknown conf=0.176 top=shield"
+    },
+    {
+      "stem": "000000025123_1462",
+      "reason": "low_conf_or_unknown species=unknown conf=0.081 top=drumstick"
+    },
+    {
+      "stem": "000000026730_391",
+      "reason": "low_conf_or_unknown species=unknown conf=0.510 top=motor scooter"
+    },
+    {
+      "stem": "000000030752_6513",
+      "reason": "low_conf_or_unknown species=unknown conf=0.281 top=whippet"
+    },
+    {
+      "stem": "000000031865_4082",
+      "reason": "low_conf_or_unknown species=unknown conf=0.105 top=groenendael"
+    },
+    {
+      "stem": "000000034825_4369",
+      "reason": "low_conf_or_unknown species=unknown conf=0.125 top=schipperke"
+    },
+    {
+      "stem": "000000036962_1585",
+      "reason": "low_conf_or_unknown species=unknown conf=0.208 top=printer"
+    },
+    {
+      "stem": "000000037477_5033",
+      "reason": "low_conf_or_unknown species=dog conf=0.086 top=Scotch terrier"
+    },
+    {
+      "stem": "000000042956_1334",
+      "reason": "low_conf_or_unknown species=unknown conf=0.418 top=dumbbell"
+    },
+    {
+      "stem": "000000045040_1484",
+      "reason": "low_conf_or_unknown species=dog conf=0.108 top=flat-coated retriever"
+    },
+    {
+      "stem": "000000045587_1711",
+      "reason": "low_conf_or_unknown species=unknown conf=0.190 top=canoe"
+    },
+    {
+      "stem": "000000046230_7013",
+      "reason": "low_conf_or_unknown species=dog conf=0.131 top=Norwich terrier"
+    },
+    {
+      "stem": "000000049758_3963",
+      "reason": "low_conf_or_unknown species=unknown conf=0.522 top=window screen"
+    },
+    {
+      "stem": "000000052846_6699",
+      "reason": "low_conf_or_unknown species=unknown conf=0.219 top=pillow"
+    },
+    {
+      "stem": "000000056857_4445",
+      "reason": "low_conf_or_unknown species=unknown conf=0.728 top=volcano"
+    },
+    {
+      "stem": "000000064899_2835",
+      "reason": "low_conf_or_unknown species=unknown conf=0.149 top=basset"
+    },
+    {
+      "stem": "000000066011_2187",
+      "reason": "low_conf_or_unknown species=unknown conf=0.192 top=cairn"
+    },
+    {
+      "stem": "000000066041_3589",
+      "reason": "low_conf_or_unknown species=unknown conf=0.204 top=chest"
+    },
+    {
+      "stem": "000000067445_4881",
+      "reason": "low_conf_or_unknown species=unknown conf=0.109 top=miniature schnauzer"
+    },
+    {
+      "stem": "000000069480_3325",
+      "reason": "low_conf_or_unknown species=unknown conf=0.537 top=collie"
+    },
+    {
+      "stem": "000000070815_324",
+      "reason": "low_conf_or_unknown species=unknown conf=0.313 top=swing"
+    },
+    {
+      "stem": "000000071313_4743",
+      "reason": "low_conf_or_unknown species=unknown conf=0.444 top=Great Dane"
+    },
+    {
+      "stem": "000000072902_3044",
+      "reason": "low_conf_or_unknown species=unknown conf=0.418 top=soccer ball"
+    },
+    {
+      "stem": "000000077325_4727",
+      "reason": "low_conf_or_unknown species=unknown conf=0.244 top=water buffalo"
+    },
+    {
+      "stem": "000000086215_209",
+      "reason": "low_conf_or_unknown species=unknown conf=0.259 top=Weimaraner"
+    },
+    {
+      "stem": "000000095050_2721",
+      "reason": "low_conf_or_unknown species=unknown conf=0.947 top=Pembroke"
+    },
+    {
+      "stem": "000000097902_3578",
+      "reason": "low_conf_or_unknown species=dog conf=0.133 top=Afghan hound"
+    },
+    {
+      "stem": "000000098503_3189",
+      "reason": "low_conf_or_unknown species=dog conf=0.184 top=Afghan hound"
+    },
+    {
+      "stem": "000000103581_7300",
+      "reason": "low_conf_or_unknown species=unknown conf=0.362 top=gondola"
+    },
+    {
+      "stem": "000000103806_56",
+      "reason": "low_conf_or_unknown species=unknown conf=0.466 top=schipperke"
+    },
+    {
+      "stem": "000000104421_1293",
+      "reason": "low_conf_or_unknown species=unknown conf=0.344 top=collie"
+    },
+    {
+      "stem": "000000111195_5637",
+      "reason": "low_conf_or_unknown species=unknown conf=0.146 top=clumber"
+    },
+    {
+      "stem": "000000116048_5625",
+      "reason": "low_conf_or_unknown species=unknown conf=0.478 top=kelpie"
+    },
+    {
+      "stem": "000000118680_4349",
+      "reason": "low_conf_or_unknown species=unknown conf=0.158 top=umbrella"
+    },
+    {
+      "stem": "000000118960_5884",
+      "reason": "low_conf_or_unknown species=unknown conf=0.494 top=parking meter"
+    },
+    {
+      "stem": "000000120466_2612",
+      "reason": "low_conf_or_unknown species=unknown conf=0.391 top=toilet tissue"
+    },
+    {
+      "stem": "000000122953_85",
+      "reason": "low_conf_or_unknown species=unknown conf=0.286 top=mouse"
+    },
+    {
+      "stem": "000000123916_5831",
+      "reason": "low_conf_or_unknown species=unknown conf=0.309 top=schipperke"
+    },
+    {
+      "stem": "000000138186_7149",
+      "reason": "low_conf_or_unknown species=unknown conf=0.227 top=Crock Pot"
+    },
+    {
+      "stem": "000000141800_5633",
+      "reason": "low_conf_or_unknown species=dog conf=0.088 top=standard poodle"
+    },
+    {
+      "stem": "000000148827_6207",
+      "reason": "low_conf_or_unknown species=unknown conf=0.206 top=bell cote"
+    },
+    {
+      "stem": "000000149184_281",
+      "reason": "low_conf_or_unknown species=unknown conf=0.755 top=dishwasher"
+    },
+    {
+      "stem": "000000149442_7562",
+      "reason": "low_conf_or_unknown species=dog conf=0.130 top=dogsled"
+    },
+    {
+      "stem": "000000156506_5493",
+      "reason": "low_conf_or_unknown species=unknown conf=0.091 top=sleeping bag"
+    },
+    {
+      "stem": "000000159069_6996",
+      "reason": "low_conf_or_unknown species=unknown conf=0.134 top=pug"
+    },
+    {
+      "stem": "000000168146_1385",
+      "reason": "low_conf_or_unknown species=cat conf=0.196 top=Egyptian cat"
+    },
+    {
+      "stem": "000000171239_5013",
+      "reason": "low_conf_or_unknown species=unknown conf=0.526 top=cock"
+    },
+    {
+      "stem": "000000171753_498",
+      "reason": "low_conf_or_unknown species=unknown conf=0.155 top=folding chair"
+    },
+    {
+      "stem": "000000177258_1143",
+      "reason": "low_conf_or_unknown species=unknown conf=0.303 top=French loaf"
+    },
+    {
+      "stem": "000000177413_4194",
+      "reason": "low_conf_or_unknown species=unknown conf=0.124 top=pug"
+    },
+    {
+      "stem": "000000180672_4127",
+      "reason": "low_conf_or_unknown species=unknown conf=0.206 top=upright"
+    },
+    {
+      "stem": "000000182758_3388",
+      "reason": "low_conf_or_unknown species=unknown conf=0.317 top=doormat"
+    },
+    {
+      "stem": "000000185004_4662",
+      "reason": "low_conf_or_unknown species=unknown conf=0.246 top=Arabian camel"
+    },
+    {
+      "stem": "000000185394_6356",
+      "reason": "low_conf_or_unknown species=unknown conf=0.232 top=sea lion"
+    },
+    {
+      "stem": "000000190326_970",
+      "reason": "low_conf_or_unknown species=dog conf=0.070 top=Siberian husky"
+    },
+    {
+      "stem": "000000191193_3979",
+      "reason": "low_conf_or_unknown species=unknown conf=0.784 top=dalmatian"
+    },
+    {
+      "stem": "000000196371_1614",
+      "reason": "low_conf_or_unknown species=unknown conf=0.395 top=bathtub"
+    },
+    {
+      "stem": "000000198518_1669",
+      "reason": "low_conf_or_unknown species=unknown conf=0.228 top=home theater"
+    },
+    {
+      "stem": "000000198836_3389",
+      "reason": "low_conf_or_unknown species=unknown conf=0.235 top=carton"
+    },
+    {
+      "stem": "000000204612_4323",
+      "reason": "low_conf_or_unknown species=unknown conf=0.339 top=medicine chest"
+    },
+    {
+      "stem": "000000208910_3663",
+      "reason": "low_conf_or_unknown species=unknown conf=0.508 top=Rottweiler"
+    },
+    {
+      "stem": "000000215618_2686",
+      "reason": "low_conf_or_unknown species=unknown conf=0.290 top=dalmatian"
+    },
+    {
+      "stem": "000000216665_5491",
+      "reason": "low_conf_or_unknown species=unknown conf=0.357 top=car wheel"
+    },
+    {
+      "stem": "000000223640_3774",
+      "reason": "low_conf_or_unknown species=unknown conf=0.107 top=fur coat"
+    },
+    {
+      "stem": "000000224567_1722",
+      "reason": "low_conf_or_unknown species=unknown conf=0.097 top=red wolf"
+    },
+    {
+      "stem": "000000224869_5278",
+      "reason": "low_conf_or_unknown species=dog conf=0.060 top=bloodhound"
+    },
+    {
+      "stem": "000000229419_3328",
+      "reason": "low_conf_or_unknown species=unknown conf=0.127 top=water buffalo"
+    },
+    {
+      "stem": "000000230224_7333",
+      "reason": "low_conf_or_unknown species=unknown conf=0.237 top=mongoose"
+    },
+    {
+      "stem": "000000234475_3677",
+      "reason": "low_conf_or_unknown species=unknown conf=0.265 top=computer keyboard"
+    },
+    {
+      "stem": "000000240755_2689",
+      "reason": "low_conf_or_unknown species=unknown conf=0.523 top=lynx"
+    },
+    {
+      "stem": "000000246879_5659",
+      "reason": "low_conf_or_unknown species=unknown conf=0.276 top=grey whale"
+    },
+    {
+      "stem": "000000247301_4455",
+      "reason": "low_conf_or_unknown species=unknown conf=0.312 top=doormat"
+    },
+    {
+      "stem": "000000254540_1122",
+      "reason": "low_conf_or_unknown species=unknown conf=0.513 top=minivan"
+    },
+    {
+      "stem": "000000258305_3996",
+      "reason": "low_conf_or_unknown species=cat conf=0.197 top=Egyptian cat"
+    },
+    {
+      "stem": "000000264476_4135",
+      "reason": "low_conf_or_unknown species=unknown conf=0.403 top=hen"
+    },
+    {
+      "stem": "000000268037_3690",
+      "reason": "low_conf_or_unknown species=unknown conf=0.456 top=Cardigan"
+    },
+    {
+      "stem": "000000275028_3168",
+      "reason": "low_conf_or_unknown species=unknown conf=0.112 top=dining table"
+    },
+    {
+      "stem": "000000276693_104",
+      "reason": "low_conf_or_unknown species=unknown conf=0.376 top=chow"
+    },
+    {
+      "stem": "000000277688_5570",
+      "reason": "low_conf_or_unknown species=unknown conf=0.648 top=horse cart"
+    },
+    {
+      "stem": "000000285257_4973",
+      "reason": "low_conf_or_unknown species=cat conf=0.138 top=tabby"
+    },
+    {
+      "stem": "000000285699_2690",
+      "reason": "low_conf_or_unknown species=unknown conf=0.096 top=Appenzeller"
+    },
+    {
+      "stem": "000000287341_6222",
+      "reason": "low_conf_or_unknown species=unknown conf=0.419 top=Indian elephant"
+    },
+    {
+      "stem": "000000288776_84",
+      "reason": "low_conf_or_unknown species=unknown conf=0.320 top=Samoyed"
+    },
+    {
+      "stem": "000000289696_5375",
+      "reason": "low_conf_or_unknown species=unknown conf=0.299 top=rocking chair"
+    },
+    {
+      "stem": "000000296782_6379",
+      "reason": "low_conf_or_unknown species=unknown conf=0.101 top=Weimaraner"
+    },
+    {
+      "stem": "000000301885_3179",
+      "reason": "low_conf_or_unknown species=unknown conf=0.520 top=paddle"
+    },
+    {
+      "stem": "000000305100_2860",
+      "reason": "low_conf_or_unknown species=unknown conf=0.173 top=barrow"
+    },
+    {
+      "stem": "000000307073_1489",
+      "reason": "low_conf_or_unknown species=dog conf=0.113 top=Staffordshire bullterrier"
+    },
+    {
+      "stem": "000000308687_3712",
+      "reason": "low_conf_or_unknown species=unknown conf=0.106 top=dining table"
+    },
+    {
+      "stem": "000000310262_1601",
+      "reason": "low_conf_or_unknown species=dog conf=0.147 top=Greater Swiss Mountain dog"
+    },
+    {
+      "stem": "000000312712_4537",
+      "reason": "low_conf_or_unknown species=unknown conf=0.515 top=clumber"
+    },
+    {
+      "stem": "000000317781_4461",
+      "reason": "low_conf_or_unknown species=unknown conf=0.361 top=Pembroke"
+    },
+    {
+      "stem": "000000320350_103",
+      "reason": "low_conf_or_unknown species=unknown conf=0.463 top=Leonberg"
+    },
+    {
+      "stem": "000000323133_3236",
+      "reason": "low_conf_or_unknown species=unknown conf=0.179 top=home theater"
+    },
+    {
+      "stem": "000000323466_5790",
+      "reason": "low_conf_or_unknown species=unknown conf=0.964 top=Pembroke"
+    },
+    {
+      "stem": "000000325298_2603",
+      "reason": "low_conf_or_unknown species=unknown conf=0.634 top=sleeping bag"
+    },
+    {
+      "stem": "000000325768_1316",
+      "reason": "low_conf_or_unknown species=unknown conf=0.093 top=breastplate"
+    },
+    {
+      "stem": "000000326073_4335",
+      "reason": "low_conf_or_unknown species=unknown conf=0.194 top=hornbill"
+    },
+    {
+      "stem": "000000328760_6588",
+      "reason": "low_conf_or_unknown species=unknown conf=0.322 top=drake"
+    },
+    {
+      "stem": "000000332025_182",
+      "reason": "low_conf_or_unknown species=unknown conf=0.110 top=broom"
+    },
+    {
+      "stem": "000000332844_1987",
+      "reason": "low_conf_or_unknown species=unknown conf=0.467 top=Arabian camel"
+    },
+    {
+      "stem": "000000335633_5425",
+      "reason": "low_conf_or_unknown species=unknown conf=0.097 top=tray"
+    },
+    {
+      "stem": "000000336568_167",
+      "reason": "low_conf_or_unknown species=unknown conf=0.478 top=groenendael"
+    },
+    {
+      "stem": "000000337044_1562",
+      "reason": "low_conf_or_unknown species=dog conf=0.171 top=American Staffordshire terrier"
+    },
+    {
+      "stem": "000000352399_7349",
+      "reason": "low_conf_or_unknown species=unknown conf=0.120 top=kelpie"
+    },
+    {
+      "stem": "000000357470_5259",
+      "reason": "low_conf_or_unknown species=unknown conf=0.441 top=mouse"
+    },
+    {
+      "stem": "000000358222_4657",
+      "reason": "low_conf_or_unknown species=unknown conf=0.798 top=piggy bank"
+    },
+    {
+      "stem": "000000368371_5813",
+      "reason": "low_conf_or_unknown species=unknown conf=0.212 top=minivan"
+    },
+    {
+      "stem": "000000369817_2258",
+      "reason": "low_conf_or_unknown species=unknown conf=0.829 top=kelpie"
+    },
+    {
+      "stem": "000000372709_3956",
+      "reason": "low_conf_or_unknown species=unknown conf=0.092 top=schipperke"
+    },
+    {
+      "stem": "000000372902_7334",
+      "reason": "low_conf_or_unknown species=unknown conf=0.518 top=mongoose"
+    },
+    {
+      "stem": "000000384308_235",
+      "reason": "low_conf_or_unknown species=unknown conf=0.217 top=ruddy turnstone"
+    },
+    {
+      "stem": "000000390262_3700",
+      "reason": "low_conf_or_unknown species=unknown conf=0.165 top=malamute"
+    },
+    {
+      "stem": "000000400134_3371",
+      "reason": "low_conf_or_unknown species=unknown conf=0.145 top=window screen"
+    },
+    {
+      "stem": "000000401299_5095",
+      "reason": "low_conf_or_unknown species=unknown conf=0.256 top=police van"
+    },
+    {
+      "stem": "000000402626_2245",
+      "reason": "low_conf_or_unknown species=unknown conf=0.181 top=whippet"
+    },
+    {
+      "stem": "000000410056_600",
+      "reason": "low_conf_or_unknown species=unknown conf=0.606 top=canoe"
+    },
+    {
+      "stem": "000000414588_4257",
+      "reason": "low_conf_or_unknown species=unknown conf=0.052 top=Arabian camel"
+    },
+    {
+      "stem": "000000419618_7033",
+      "reason": "low_conf_or_unknown species=unknown conf=0.194 top=marmoset"
+    },
+    {
+      "stem": "000000423513_1954",
+      "reason": "low_conf_or_unknown species=unknown conf=0.415 top=Great Pyrenees"
+    },
+    {
+      "stem": "000000427986_116",
+      "reason": "low_conf_or_unknown species=unknown conf=0.932 top=malinois"
+    },
+    {
+      "stem": "000000428746_3914",
+      "reason": "low_conf_or_unknown species=unknown conf=0.125 top=Weimaraner"
+    },
+    {
+      "stem": "000000435698_3318",
+      "reason": "low_conf_or_unknown species=unknown conf=0.081 top=toucan"
+    },
+    {
+      "stem": "000000440067_1700",
+      "reason": "low_conf_or_unknown species=unknown conf=0.411 top=bow tie"
+    },
+    {
+      "stem": "000000445859_2851",
+      "reason": "low_conf_or_unknown species=unknown conf=0.293 top=pelican"
+    },
+    {
+      "stem": "000000449560_1234",
+      "reason": "low_conf_or_unknown species=dog conf=0.198 top=bull mastiff"
+    },
+    {
+      "stem": "000000450160_4333",
+      "reason": "low_conf_or_unknown species=unknown conf=0.281 top=Mexican hairless"
+    },
+    {
+      "stem": "000000456176_3332",
+      "reason": "low_conf_or_unknown species=unknown conf=0.202 top=vizsla"
+    },
+    {
+      "stem": "000000459111_4259",
+      "reason": "low_conf_or_unknown species=dog conf=0.181 top=American Staffordshire terrier"
+    },
+    {
+      "stem": "000000467978_731",
+      "reason": "low_conf_or_unknown species=unknown conf=0.824 top=ram"
+    },
+    {
+      "stem": "000000468162_273",
+      "reason": "low_conf_or_unknown species=unknown conf=0.472 top=necklace"
+    },
+    {
+      "stem": "000000468742_7558",
+      "reason": "low_conf_or_unknown species=dog conf=0.099 top=Italian greyhound"
+    },
+    {
+      "stem": "000000474434_3544",
+      "reason": "low_conf_or_unknown species=unknown conf=0.121 top=doormat"
+    },
+    {
+      "stem": "000000475317_6323",
+      "reason": "low_conf_or_unknown species=unknown conf=0.545 top=window screen"
+    },
+    {
+      "stem": "000000476468_3727",
+      "reason": "low_conf_or_unknown species=unknown conf=0.131 top=patas"
+    },
+    {
+      "stem": "000000477647_5556",
+      "reason": "low_conf_or_unknown species=unknown conf=0.960 top=refrigerator"
+    },
+    {
+      "stem": "000000478351_2868",
+      "reason": "low_conf_or_unknown species=unknown conf=0.112 top=borzoi"
+    },
+    {
+      "stem": "000000479621_2960",
+      "reason": "low_conf_or_unknown species=unknown conf=0.076 top=bathing cap"
+    },
+    {
+      "stem": "000000481101_7500",
+      "reason": "low_conf_or_unknown species=dog conf=0.246 top=Siberian husky"
+    },
+    {
+      "stem": "000000481212_908",
+      "reason": "low_conf_or_unknown species=dog conf=0.168 top=Greater Swiss Mountain dog"
+    },
+    {
+      "stem": "000000481212_908_1",
+      "reason": "low_conf_or_unknown species=dog conf=0.168 top=Greater Swiss Mountain dog"
+    },
+    {
+      "stem": "000000486777_3821",
+      "reason": "low_conf_or_unknown species=unknown conf=0.101 top=bucket"
+    },
+    {
+      "stem": "000000487851_5050",
+      "reason": "low_conf_or_unknown species=unknown conf=0.786 top=umbrella"
+    },
+    {
+      "stem": "000000492683_2281",
+      "reason": "low_conf_or_unknown species=unknown conf=0.208 top=junco"
+    },
+    {
+      "stem": "000000494678_5439",
+      "reason": "low_conf_or_unknown species=dog conf=0.224 top=American Staffordshire terrier"
+    },
+    {
+      "stem": "000000495637_6216",
+      "reason": "low_conf_or_unknown species=unknown conf=0.255 top=boxer"
+    },
+    {
+      "stem": "000000496657_3062",
+      "reason": "low_conf_or_unknown species=unknown conf=0.463 top=doormat"
+    },
+    {
+      "stem": "000000500100_706",
+      "reason": "low_conf_or_unknown species=unknown conf=0.225 top=Mexican hairless"
+    },
+    {
+      "stem": "000000506401_447",
+      "reason": "low_conf_or_unknown species=unknown conf=0.204 top=horse cart"
+    },
+    {
+      "stem": "000000509018_7223",
+      "reason": "low_conf_or_unknown species=unknown conf=0.270 top=gas pump"
+    },
+    {
+      "stem": "000000516146_7237",
+      "reason": "low_conf_or_unknown species=unknown conf=0.953 top=Great Pyrenees"
+    },
+    {
+      "stem": "000000516212_1440",
+      "reason": "low_conf_or_unknown species=cat conf=0.249 top=tabby"
+    },
+    {
+      "stem": "000000521112_6427",
+      "reason": "low_conf_or_unknown species=unknown conf=0.355 top=Rottweiler"
+    },
+    {
+      "stem": "000000531096_2391",
+      "reason": "low_conf_or_unknown species=dog conf=0.222 top=bloodhound"
+    },
+    {
+      "stem": "000000533026_799",
+      "reason": "low_conf_or_unknown species=cat conf=0.216 top=tabby"
+    },
+    {
+      "stem": "000000536400_813",
+      "reason": "low_conf_or_unknown species=unknown conf=0.829 top=Rottweiler"
+    },
+    {
+      "stem": "000000546642_283",
+      "reason": "low_conf_or_unknown species=unknown conf=0.242 top=horse cart"
+    },
+    {
+      "stem": "000000546703_5948",
+      "reason": "low_conf_or_unknown species=unknown conf=0.247 top=soccer ball"
+    },
+    {
+      "stem": "000000562835_2386",
+      "reason": "low_conf_or_unknown species=unknown conf=0.581 top=schipperke"
+    },
+    {
+      "stem": "000000562999_3786",
+      "reason": "low_conf_or_unknown species=unknown conf=0.306 top=shower curtain"
+    },
+    {
+      "stem": "000000572825_375",
+      "reason": "low_conf_or_unknown species=unknown conf=0.261 top=giant schnauzer"
+    },
+    {
+      "stem": "000000575005_3321",
+      "reason": "low_conf_or_unknown species=dog conf=0.223 top=Labrador retriever"
+    },
+    {
+      "stem": "000000575882_794",
+      "reason": "low_conf_or_unknown species=unknown conf=0.128 top=printer"
+    },
+    {
+      "stem": "000000576855_2826",
+      "reason": "low_conf_or_unknown species=unknown conf=0.086 top=horse cart"
+    },
+    {
+      "stem": "000000579822_1485",
+      "reason": "low_conf_or_unknown species=unknown conf=0.197 top=German short-haired pointer"
+    }
+  ],
+  "examples": [
+    {
+      "stem": "000000016206_4014",
+      "fg_frac": 0.0267486572265625,
+      "cnt1": 0,
+      "cnt2": 1753,
+      "main": 2,
+      "species": "unknown",
+      "conf": 0.1888641119003296,
+      "top_label": "unicycle"
+    },
+    {
+      "stem": "000000016823_4560",
+      "fg_frac": 0.088043212890625,
+      "cnt1": 5770,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.3071271777153015,
+      "top_label": "koala"
+    },
+    {
+      "stem": "000000022129_2200",
+      "fg_frac": 0.1104583740234375,
+      "cnt1": 7239,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.6167234778404236,
+      "top_label": "wombat"
+    },
+    {
+      "stem": "000000023511_6910",
+      "fg_frac": 0.1100921630859375,
+      "cnt1": 0,
+      "cnt2": 7215,
+      "main": 2,
+      "species": "dog",
+      "conf": 0.25722479820251465,
+      "top_label": "Border terrier"
+    },
+    {
+      "stem": "000000023731_404",
+      "fg_frac": 0.0181732177734375,
+      "cnt1": 1191,
+      "cnt2": 0,
+      "main": 1,
+      "species": "dog",
+      "conf": 0.13800743222236633,
+      "top_label": "soft-coated wheaten terrier"
+    },
+    {
+      "stem": "000000024497_3808",
+      "fg_frac": 0.080902099609375,
+      "cnt1": 5302,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.1758655160665512,
+      "top_label": "shield"
+    },
+    {
+      "stem": "000000025123_1462",
+      "fg_frac": 0.1602935791015625,
+      "cnt1": 10505,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.08060052990913391,
+      "top_label": "drumstick"
+    },
+    {
+      "stem": "000000026730_391",
+      "fg_frac": 0.1654052734375,
+      "cnt1": 0,
+      "cnt2": 10840,
+      "main": 2,
+      "species": "unknown",
+      "conf": 0.5104503631591797,
+      "top_label": "motor scooter"
+    },
+    {
+      "stem": "000000030752_6513",
+      "fg_frac": 0.078094482421875,
+      "cnt1": 0,
+      "cnt2": 5118,
+      "main": 2,
+      "species": "unknown",
+      "conf": 0.2809988260269165,
+      "top_label": "whippet"
+    },
+    {
+      "stem": "000000031865_4082",
+      "fg_frac": 0.237152099609375,
+      "cnt1": 15542,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.10495598614215851,
+      "top_label": "groenendael"
+    },
+    {
+      "stem": "000000034825_4369",
+      "fg_frac": 0.0802459716796875,
+      "cnt1": 5259,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.12546087801456451,
+      "top_label": "schipperke"
+    },
+    {
+      "stem": "000000036962_1585",
+      "fg_frac": 0.202789306640625,
+      "cnt1": 13290,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.20765697956085205,
+      "top_label": "printer"
+    },
+    {
+      "stem": "000000037477_5033",
+      "fg_frac": 0.1156768798828125,
+      "cnt1": 7581,
+      "cnt2": 0,
+      "main": 1,
+      "species": "dog",
+      "conf": 0.08645171672105789,
+      "top_label": "Scotch terrier"
+    },
+    {
+      "stem": "000000040466_5639",
+      "fg_frac": 0.088134765625,
+      "cnt1": 5776,
+      "cnt2": 0,
+      "main": 1,
+      "species": "cat",
+      "conf": 0.3222006857395172,
+      "top_label": "Siamese cat"
+    },
+    {
+      "stem": "000000042956_1334",
+      "fg_frac": 0.1523590087890625,
+      "cnt1": 9985,
+      "cnt2": 0,
+      "main": 1,
+      "species": "unknown",
+      "conf": 0.4180940091609955,
+      "top_label": "dumbbell"
+    }
+  ],
+  "mapping_inferred": {
+    "cat": 1,
+    "dog": 2
+  },
+  "note": "Mapping inferred from ImageNet classifier on images + dominant label in mask. Requires manual review for flagged samples.",
+  "write_actions": {
+    "copied": 0,
+    "swapped": 0,
+    "skipped": 0
+  }
+}
